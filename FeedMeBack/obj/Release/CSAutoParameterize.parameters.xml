@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-FeedMeBack-20151105013413.mdf;Initial Catalog=aspnet-FeedMeBack-20151105013413;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Temp\\Projects\\InnovationFriday\\FeedMeBack\\FeedMeBack\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="FeedMeBackContext-Web.config Connection String" description="FeedMeBackContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=FeedMeBackContext-20151105133822; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|FeedMeBackContext-20151105133822.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Temp\\Projects\\InnovationFriday\\FeedMeBack\\FeedMeBack\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FeedMeBackContext']/@connectionString" />
+  </parameter>
+</parameters>
